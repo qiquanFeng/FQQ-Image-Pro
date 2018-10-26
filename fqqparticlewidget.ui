@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fqqParticleWidget</class>
+ <widget class="QWidget" name="fqqParticleWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>505</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>fqqParticleWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>451</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetMaximumSize</enum>
+    </property>
+    <property name="spacing">
+     <number>6</number>
+    </property>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_Save">
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton_Test">
+      <property name="text">
+       <string>Test</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">QFrame{border:1px solid black}
+QWidget{margin:3px;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>201</width>
+         <height>88</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMaximumSize</enum>
+        </property>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_17"/>
+        </item>
+        <item row="1" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_18"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_19"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_20"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_21"/>
+        </item>
+        <item row="2" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_22"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_23"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_24"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_1">
+      <property name="styleSheet">
+       <string notr="true">QFrame{border:1px solid black}
+QWidget{margin:3px;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="layoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>201</width>
+         <height>88</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_1">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMaximumSize</enum>
+        </property>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_LT"/>
+        </item>
+        <item row="1" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_R"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_L"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_RT"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_T"/>
+        </item>
+        <item row="2" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_RB"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_LB"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1_B"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame_3">
+      <property name="styleSheet">
+       <string notr="true">QFrame{border:1px solid black}
+QWidget{margin:3px;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="layoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>201</width>
+         <height>88</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMaximumSize</enum>
+        </property>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_49"/>
+        </item>
+        <item row="1" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_50"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_51"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_52"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_53"/>
+        </item>
+        <item row="2" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_54"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_55"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_56"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QFrame" name="frame_4">
+      <property name="styleSheet">
+       <string notr="true">QFrame{border:1px solid black}
+QWidget{margin:3px;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="layoutWidget_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>201</width>
+         <height>88</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMaximumSize</enum>
+        </property>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_57"/>
+        </item>
+        <item row="1" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_58"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_59"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_60"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_61"/>
+        </item>
+        <item row="2" column="2">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_62"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_63"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_64"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>doubleSpinBox_1_LT</tabstop>
+  <tabstop>doubleSpinBox_1_T</tabstop>
+  <tabstop>doubleSpinBox_1_RT</tabstop>
+  <tabstop>doubleSpinBox_1_L</tabstop>
+  <tabstop>doubleSpinBox_1_R</tabstop>
+  <tabstop>doubleSpinBox_1_LB</tabstop>
+  <tabstop>doubleSpinBox_1_B</tabstop>
+  <tabstop>doubleSpinBox_1_RB</tabstop>
+  <tabstop>doubleSpinBox_17</tabstop>
+  <tabstop>doubleSpinBox_21</tabstop>
+  <tabstop>doubleSpinBox_20</tabstop>
+  <tabstop>doubleSpinBox_19</tabstop>
+  <tabstop>doubleSpinBox_18</tabstop>
+  <tabstop>doubleSpinBox_23</tabstop>
+  <tabstop>doubleSpinBox_24</tabstop>
+  <tabstop>doubleSpinBox_22</tabstop>
+  <tabstop>doubleSpinBox_49</tabstop>
+  <tabstop>doubleSpinBox_53</tabstop>
+  <tabstop>doubleSpinBox_52</tabstop>
+  <tabstop>doubleSpinBox_51</tabstop>
+  <tabstop>doubleSpinBox_50</tabstop>
+  <tabstop>doubleSpinBox_55</tabstop>
+  <tabstop>doubleSpinBox_56</tabstop>
+  <tabstop>doubleSpinBox_54</tabstop>
+  <tabstop>doubleSpinBox_57</tabstop>
+  <tabstop>doubleSpinBox_61</tabstop>
+  <tabstop>doubleSpinBox_60</tabstop>
+  <tabstop>doubleSpinBox_59</tabstop>
+  <tabstop>doubleSpinBox_58</tabstop>
+  <tabstop>doubleSpinBox_63</tabstop>
+  <tabstop>doubleSpinBox_64</tabstop>
+  <tabstop>doubleSpinBox_62</tabstop>
+  <tabstop>pushButton_Test</tabstop>
+  <tabstop>pushButton_Save</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

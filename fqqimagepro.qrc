@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/fqqImagePro">
+        <file>Resources/Login.ico</file>
+        <file>Resources/cn.qm</file>
+    </qresource>
+</RCC>
